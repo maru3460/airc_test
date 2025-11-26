@@ -1,8 +1,6 @@
 # airc_profiles
 
-**airc_profiles** は、[airc](https://github.com/maru3460/airc) CLI ツールのデフォルトリモートプロファイルストアです。
-
-AIツール設定（Claude Code や他のLLMベースツール）をプロファイルで管理し、異なる環境・用途に応じて素早く切り替えることができます。このリポジトリは、さまざまなワークフローに対応したプロファイルを提供します。
+**airc_profiles** は、[airc](https://github.com/maru3460/airc) のデフォルトリモートプロファイルストアです。
 
 ## 🚀 クイックスタート
 
@@ -62,7 +60,7 @@ airc use pa-agent
 
 このシステムにより、プロファイルのダウンロード時に正確なファイルリストを取得できます。
 
-## 👨‍💻 自分用のプロファイルストアを作る
+## 👨‍💻 新しくリモートプロファイルストアを作る
 
 このリポジトリをフォークして、独自のリモートプロファイルストアを作成できます。
 
@@ -72,7 +70,7 @@ airc use pa-agent
 
 GitHub で `maru3460/airc_profiles` をフォークします。
 
-2. **既存のプロファイルを削除**
+1. **デフォルトプロファイルを削除**
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/airc_profiles.git
@@ -108,6 +106,5 @@ airc use my-profile
 
 ## 🔗 リンク
 
-- **airc CLI ツール**: [https://github.com/maru3460/airc](https://github.com/maru3460/airc)
-- **Issues**: [https://github.com/maru3460/airc_profiles/issues](https://github.com/maru3460/airc_profiles/issues)
-- **ドキュメント**: [airc CLI ドキュメント](https://github.com/maru3460/airc#readme)
+- **airc**: [https://github.com/maru3460/airc](https://github.com/maru3460/airc)
+- **ドキュメント**: [airc ドキュメント](https://github.com/maru3460/airc#readme)
